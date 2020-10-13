@@ -1,0 +1,9 @@
+.header {
+  grid-area: h;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #212437;
+  color: #fff;
+}
