@@ -4,8 +4,8 @@ const SAVE_ANSWER = "SEND_ANSWER",
       UPDATE_ANSWER = "UPDATE_ANSWER"
 
 let initialState = {
-    //questions : ["An commune omnesque per. Mei mutat deleniti an, populo nemore volumus ea sit. Velit nostro habemus pri ut, in est veri appareat iracundia. Eum tantas persecuti efficiantur no.In mel animal graecis omittantur, alterum splendide efficiantur et eos, lorem tacimates ad vis. Ad eam phaedrum moderatius, ea alia dicit inciderint vis. Mundi convenire in nec. No eos agam oportere, virtute debitis est ut. Quis magna persecuti no cum, eam ut omnium adipiscing voluptatibus, ius nullam offendit dissentias ei"],
-    questions: [], 
+    questions : ["An commune omnesque per. Mei mutat deleniti an, populo nemore volumus ea sit. Velit nostro habemus pri ut, in est veri appareat iracundia. Eum tantas persecuti efficiantur no.In mel animal graecis omittantur, alterum splendide efficiantur et eos, lorem tacimates ad vis. Ad eam phaedrum moderatius, ea alia dicit inciderint vis. Mundi convenire in nec. No eos agam oportere, virtute debitis est ut. Quis magna persecuti no cum, eam ut omnium adipiscing voluptatibus, ius nullam offendit dissentias ei"],
+    //questions: [], 
     answers : [],
     newAnswer : ""
 }
@@ -41,7 +41,7 @@ export const updateAnswer = (newAnswer) => ({type: UPDATE_ANSWER, newAnswer})
 
 export const getQuestionsWithServer = () => {
     return (dispatch) => {
-        return questionsAPI.getQuestions.then((response) => {
+        return questionsAPI.getQuestions().then((response) => {
             dispatch(setQuestions(response))
         })
     }
