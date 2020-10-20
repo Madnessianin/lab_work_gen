@@ -4,8 +4,8 @@ const SAVE_ANSWER = "SEND_ANSWER",
       UPDATE_ANSWER = "UPDATE_ANSWER"
 
 let initialState = {
-    questions : ["An commune omnesque per. Mei mutat deleniti an, populo nemore volumus ea sit. Velit nostro habemus pri ut, in est veri appareat iracundia. Eum tantas persecuti efficiantur no.In mel animal graecis omittantur, alterum splendide efficiantur et eos, lorem tacimates ad vis. Ad eam phaedrum moderatius, ea alia dicit inciderint vis. Mundi convenire in nec. No eos agam oportere, virtute debitis est ut. Quis magna persecuti no cum, eam ut omnium adipiscing voluptatibus, ius nullam offendit dissentias ei"],
-    //questions: [], 
+    //questions : ["An commune omnesque per. Mei mutat deleniti an, populo nemore volumus ea sit. Velit nostro habemus pri ut, in est veri appareat iracundia. Eum tantas persecuti efficiantur no.In mel animal graecis omittantur, alterum splendide efficiantur et eos, lorem tacimates ad vis. Ad eam phaedrum moderatius, ea alia dicit inciderint vis. Mundi convenire in nec. No eos agam oportere, virtute debitis est ut. Quis magna persecuti no cum, eam ut omnium adipiscing voluptatibus, ius nullam offendit dissentias ei"],
+    questions: [], 
     answers : [],
     newAnswer : ""
 }
@@ -27,7 +27,7 @@ const testsReducer = (state = initialState, action) => {
         case SET_QUESTIONS: {
             return {
                 ...state,
-                questions: [...state.questions, action.questions]
+                questions: action.questions
             }
         }
         default :
@@ -41,9 +41,16 @@ export const updateAnswer = (newAnswer) => ({type: UPDATE_ANSWER, newAnswer})
 
 export const getQuestionsWithServer = () => {
     return (dispatch) => {
+        /* let questions = [
+            {id : "1", text : 'An commune omnesque per. Mei mutat deleniti an, populo nemore volumus ea sit.'},
+            {id : "2", text : 'Velit nostro habemus pri ut, in est veri appareat iracundia'}
+        ]
+        dispatch(setQuestions(questions)) */
         return questionsAPI.getQuestions().then((response) => {
+            //console.log(response.resultCode)
             dispatch(setQuestions(response))
-        })
+             
+        }) 
     }
 }
 

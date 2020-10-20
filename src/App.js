@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import NavBar from './components/NavBar/NavBar';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Tests from './components/Tests/Tests';
+import TestsConteiner from './components/Tests/TestsConteiner';
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
           <Header />
           <NavBar />
           <div className = {"app_content"}>
-              <Route path = {"/tests"} render = {() => <Tests />}/>
+              <Route path = {"/tests"} render = {() => <TestsConteiner />}/>
               <Route path = {"/results"} />
           </div>
       </div>
