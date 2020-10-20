@@ -40,17 +40,9 @@ export const setQuestions = (questions) => ({type: SET_QUESTIONS, questions})
 export const updateAnswer = (newAnswer) => ({type: UPDATE_ANSWER, newAnswer})
 
 export const getQuestionsWithServer = () => {
-    return (dispatch) => {
-        /* let questions = [
-            {id : "1", text : 'An commune omnesque per. Mei mutat deleniti an, populo nemore volumus ea sit.'},
-            {id : "2", text : 'Velit nostro habemus pri ut, in est veri appareat iracundia'}
-        ]
-        dispatch(setQuestions(questions)) */
-        return questionsAPI.getQuestions().then((response) => {
-            //console.log(response.resultCode)
-            dispatch(setQuestions(response))
-             
-        }) 
+    return async (dispatch) => {
+        let response = await questionsAPI.getQuestions();
+        dispatch(setQuestions(response.data))
     }
 }
 

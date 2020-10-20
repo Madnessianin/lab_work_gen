@@ -16,9 +16,10 @@ const Tests = (props) => {
         
         return (
             <div className = {style.content}>
-                { props.questions.map(question => <div key = {question.id}>
-                        <div className = {style.questions_item}>{question.text}</div>
-                    </div>)
+                { props.questions
+                .map(question => <div key = {question.id} className = {style.questions_item}>
+                                    {question.text}
+                                </div>)
                 } 
                 {/* <textarea onChange = {onAnswerChange} ref={newAnswerElement} />
                 <button onClick = {sendAnswer} >Save Answer</button> */}
