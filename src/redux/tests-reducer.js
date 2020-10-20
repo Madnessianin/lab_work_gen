@@ -39,10 +39,17 @@ export const saveAnswer = () => ({type: SAVE_ANSWER})
 export const setQuestions = (questions) => ({type: SET_QUESTIONS, questions})
 export const updateAnswer = (newAnswer) => ({type: UPDATE_ANSWER, newAnswer})
 
-export const getQuestionsWithServer = () => {
+
+export const getQuestions = () => {
     return async (dispatch) => {
         let response = await questionsAPI.getQuestions();
         dispatch(setQuestions(response.data))
+    }
+}
+export const addQuestion = (question) => {
+    return async (dispatch) => {
+        let response = await questionsAPI.addQuestions(question)
+        dispatch(getQuestions())
     }
 }
 

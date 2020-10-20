@@ -9,5 +9,8 @@ let instance = axios.create({
 export const questionsAPI = {
     getQuestions(){
         return instance.get()
+    },
+    addQuestions(question) {
+        return instance.post('', question)
     }
 }
