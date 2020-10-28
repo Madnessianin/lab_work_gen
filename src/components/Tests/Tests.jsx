@@ -22,8 +22,9 @@ const Tests = (props) => {
         return (
             <div className = {style.content}>
                 { props.questions
-                .map(question => <div key = {question.id} className = {style.questions_item}>
-                                    <pre dangerouslySetInnerHTML={{__html: question.text}}></pre>
+                .map(question => <div key = {question.id} className = {style.questionsItem}>
+                                    <h4 className = {style.nameQuestion}>Вопрос {question.id}</h4>
+                                    <pre className = {style.question} dangerouslySetInnerHTML={{__html: question.text}}></pre>
                                 </div>)
                 }
                 <QuestionFormConteiner onSubmit = {onSubmit} />
