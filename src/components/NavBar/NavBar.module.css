@@ -1,15 +1,27 @@
 .nav {
   grid-area: n;
   padding: 20px;
-  background-color: #212437;
-  
 }
 
 .item a {
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 20px;
   text-decoration: none;
   color: #fff;
+  transition: color .2s linear, border .2s linear;
 }
 
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #00d7b2;
+}
+.item a:hover{
+  color: #00d7b2;
+}
 .item a.active {
   color: #00d7b2;
 }

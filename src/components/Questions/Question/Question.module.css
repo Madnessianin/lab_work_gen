@@ -1,0 +1,20 @@
+.question {
+    font-size: 20px;
+    font-weight: 400;
+}
+.question img {
+    width: 200px;
+    height: 200px;
+}
+.nameQuestion {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 400;
+}
+.item {
+    padding: 20px 0;
+    border-bottom: 1px solid #4e547c;
+}
+.item:first-child {
+    padding-top: 0;
+}

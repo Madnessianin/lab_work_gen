@@ -1,0 +1,21 @@
+.wrapperBtn {
+    margin-top: 15px;  
+}
+.btn, 
+.wrapperBtn a {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    background-color: #383d5c;
+    border-radius: 5px;
+    transition: color .2s linear;
+}
+.btn:hover,
+.wrapperBtn a:hover {
+    color: #00d7b2;
+}

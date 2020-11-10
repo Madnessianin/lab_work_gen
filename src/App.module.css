@@ -1,17 +1,20 @@
-.app {
+.inner {
   display: grid;
   grid-template-areas: 
-    "h h"
+  "h"
+  "w";
+  grid-template-rows: 70px 1fr;
+}
+.appWrapper {
+  display: grid;
+  grid-template-areas: 
     "n i";
-  grid-template-rows: 50px 1fr;
   grid-template-columns: 2fr 10fr;
-  grid-gap: 10px;
   width: 1200px;
   margin: 0 auto;
-  background-color: #fff;
 }
 
 .app_content {
   grid-area: i;
-  background-color: #212437;
+  margin-top: 10px;
 }

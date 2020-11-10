@@ -1,9 +1,24 @@
 .header {
   grid-area: h;
+  padding-top: 5px;
+  border-bottom: 1px solid #4e547c;
+  border-top: none;
+}
+.inner {
+  grid-area: h;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  background-color: #212437;
+  padding: 5px 20px;
+  width: 80%;
+  margin: 0 auto;
   color: #fff;
+}
+.img {
+  width: 50px;
+  height: 50px;
+}
+.userName {
+  font-size: 16px;
+  font-weight: 400;
 }
