@@ -53,4 +53,18 @@ export const addQuestion = (question) => {
     }
 }
 
+export const saveEditQuesrion = (questionId, question) => {
+    return async (dispatch) => {
+        let response = await questionsAPI.editQuestion(questionId, question)
+        dispatch(getQuestions())
+    }
+}
+
+export const deleteQuesrion = (questionId) => {
+    return async (dispatch) => {
+        let response = await questionsAPI.deleteQuestion(questionId)
+        dispatch(getQuestions())
+    }
+}
+
 export default testsReducer;

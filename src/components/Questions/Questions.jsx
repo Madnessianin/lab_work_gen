@@ -13,7 +13,7 @@ const QuestionForm = (props) => {
                 name = {"text"}
                 component = {"textarea"}/>
         </div> 
-        <Button textBtn = {"Save qusetion"} type = {"submit"} />
+        <Button textBtn = {"Save question"} type = {"submit"} />
     </form>
     )
 }
@@ -28,7 +28,8 @@ const Questions = (props) => {
         return (
             <div className = {style.content}>
                 { props.questions
-                .map(question => <Question question = {question} />)
+                .map(question => <Question question = {question} 
+                                           deleteQuesrion = {props.deleteQuesrion} />)
                 }
                 <div className = {style.wrapper}>
                 {addQuestMode ? <QuestionFormConteiner onSubmit = {onSubmit} />

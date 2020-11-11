@@ -12,5 +12,11 @@ export const questionsAPI = {
     },
     addQuestions(question) {
         return instance.post('', question)
+    },
+    editQuestion(questionId, question){
+        return instance.put(`/${questionId}`, question)
+    },
+    deleteQuestion(questionId){
+        return instance.delete(`/${questionId}`)
     }
 }

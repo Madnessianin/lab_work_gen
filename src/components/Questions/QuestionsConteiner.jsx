@@ -1,6 +1,6 @@
 import React from 'react'
 import { connect } from "react-redux";
-import {saveAnswer, updateAnswer, getQuestions, addQuestion} from '../../redux/tests-reducer'
+import {saveAnswer, updateAnswer, getQuestions, addQuestion, saveEditQuesrion, deleteQuesrion} from '../../redux/tests-reducer'
 import Questions from './Questions';
 
 
@@ -16,7 +16,8 @@ class QuestionsConteiner extends React.PureComponent {
                        answers = {this.props.answers} 
                        updateAnswer = {this.props.updateAnswer}
                        saveAnswer = {this.props.saveAnswer}
-                       addQuestion = {this.props.addQuestion}/>
+                       addQuestion = {this.props.addQuestion}
+                       deleteQuesrion = {this.props.deleteQuesrion}/>
         )
     }
 }
@@ -33,7 +34,9 @@ let mapDispatchToProps = {
     saveAnswer,
     updateAnswer,
     getQuestions,
-    addQuestion
+    addQuestion,
+    saveEditQuesrion,
+    deleteQuesrion
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(QuestionsConteiner);
