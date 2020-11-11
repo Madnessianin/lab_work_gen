@@ -30,18 +30,18 @@
 .item {
     display: flex;
     justify-content: space-between;
-    padding: 20px 0;
+    margin: 20px 0;
+    padding: 10px;
     border-bottom: 1px solid #4e547c;
+    position: relative;
 }
 .item:first-child {
-    padding-top: 0;
+    margin-top: 0;
 }
 .wrapper {
-    width: 80%;
+    max-width: 80%;
 }
 .btns {
-    display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     width: 15%;
 }
