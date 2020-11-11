@@ -45,7 +45,9 @@
     flex-wrap: wrap;
     width: 15%;
 }
-
+.question table {
+    margin-top: 20px;
+}
 .question table, tr, td, th {
     font-size: 20px;
     font-weight: 400;
