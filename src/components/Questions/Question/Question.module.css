@@ -46,6 +46,13 @@
     width: 15%;
 }
 
-.question table {
-    border: 1px solid #0f1018;
+.question table, tr, td, th {
+    font-size: 20px;
+    font-weight: 400;
+    border: 2px solid #4e547c;
+}
+
+.question  td, th {
+    text-align: center;
+    width: 100px;
 }
