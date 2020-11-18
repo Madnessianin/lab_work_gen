@@ -8,7 +8,7 @@ const FormEdit = (props) => {
     return (
     <form className = {style.form} onSubmit = {props.handleSubmit}>
         <div className = {style.formInner}>
-            <Field placeholder = {"Enter new question...."}
+            <Field placeholder = {"Enter new question..."}
                 name = {"text"}
                 component = {"textarea"}/>
         </div>

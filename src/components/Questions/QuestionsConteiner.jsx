@@ -17,7 +17,8 @@ class QuestionsConteiner extends React.PureComponent {
                        updateAnswer = {this.props.updateAnswer}
                        saveAnswer = {this.props.saveAnswer}
                        addQuestion = {this.props.addQuestion}
-                       deleteQuesrion = {this.props.deleteQuesrion}/>
+                       deleteQuesrion = {this.props.deleteQuesrion}
+                       saveEditQuesrion = {this.props.saveEditQuesrion}/>
         )
     }
 }
