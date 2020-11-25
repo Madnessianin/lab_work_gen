@@ -1,0 +1,895 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 6.4.6.2 (Linux)"/>
+	<meta name="author" content="main"/>
+	<meta name="created" content="2015-02-08T08:24:00"/>
+	<meta name="changed" content="2020-11-25T08:24:52.289036787"/>
+	<style type="text/css">
+		@page { size: 21cm 29.7cm; margin: 2cm }
+		p { margin-bottom: 0.25cm; direction: ltr; color: #000000; line-height: 115%; orphans: 2; widows: 2; background: transparent }
+		p.western { font-family: "Times New Roman", serif; font-size: 12pt; so-language: ru-RU }
+		p.cjk { font-family: "SimSun", "宋体"; font-size: 12pt; so-language: zh-CN }
+		p.ctl { font-family: "Times New Roman", serif; font-size: 12pt; so-language: ar-SA }
+	</style>
+</head>
+<body lang="ru-RU" text="#000000" link="#000080" vlink="#800000" dir="ltr"><p class="western" align="justify" style="margin-bottom: 0cm; line-height: 100%">
+<b>Задание 1</b></p>
+<p class="western" align="justify" style="text-indent: 0.5cm; margin-bottom: 0cm; line-height: 100%">
+Дано число n в шестиричной системе
+счисления. Разработайте машину Тьюринга,
+которая увеличивала бы заданное число
+на 1. В начальном  и конечном состояниях
+ автомат обозревает крайнюю левую цифру
+числа. Описать словами каждое состояние
+автомата. Составить программу-таблицу
+и нарисовать диаграмму переходов.
+Отметьте запрещенные клетки таблицы.</p>
+<p class="western" align="justify" style="text-indent: 0.5cm; margin-bottom: 0cm; line-height: 100%">
+<br/>
+
+</p>
+<p class="western" align="justify" style="text-indent: 0.5cm; margin-bottom: 0cm; line-height: 100%">
+Дано число n в шестиричной системе
+счисления. Разработайте машину Тьюринга,
+которая уменьшала бы заданное число на
+1. В начальном  и конечном состояниях 
+автомат обозревает крайнюю левую цифру
+числа. Описать словами каждое состояние
+автомата. Составить программу-таблицу
+и нарисовать диаграмму переходов.
+Отметьте запрещенные клетки таблицы.</p>
+<p class="western" align="justify" style="text-indent: 0.5cm; margin-bottom: 0cm; line-height: 100%">
+<br/>
+
+</p>
+<p class="western" align="justify" style="text-indent: 0.5cm; margin-bottom: 0cm; line-height: 100%">
+Дано число n в пятиричной системе
+счисления. Разработайте машину Тьюринга,
+которая увеличивала бы заданное число
+на 2. В начальном  и конечном состояниях
+ автомат обозревает крайнюю левую цифру
+числа. Описать словами каждое состояние
+автомата. Составить программу-таблицу
+и нарисовать диаграмму переходов.
+Отметьте запрещенные клетки таблицы.</p>
+<p class="western" align="justify" style="text-indent: 0.5cm; margin-bottom: 0cm; line-height: 100%">
+<br/>
+
+</p>
+<p class="western" align="justify" style="text-indent: 0.5cm; margin-bottom: 0cm; line-height: 100%">
+Дано число n в пятиричной системе
+счисления. Разработайте машину Тьюринга,
+которая уменьшала бы заданное число на
+2. В начальном  и конечном состояниях 
+автомат обозревает крайнюю левую цифру
+числа. Описать словами каждое состояние
+автомата. Составить программу-таблицу
+и нарисовать диаграмму переходов.
+Отметьте запрещенные клетки таблицы.</p>
+<p class="western" align="justify" style="text-indent: 0.5cm; margin-bottom: 0cm; line-height: 100%">
+<br/>
+
+</p>
+<p class="western" align="justify" style="text-indent: 0.5cm; margin-bottom: 0cm; line-height: 100%">
+Дано число n в восьмеричной системе
+счисления. Разработайте машину Тьюринга,
+которая увеличивала бы заданное число
+на 3. В начальном  и конечном состояниях
+ автомат обозревает крайнюю левую цифру
+числа. Описать словами каждое состояние
+автомата. Составить программу-таблицу
+и нарисовать диаграмму переходов.
+Отметьте запрещенные клетки таблицы.</p>
+<p class="western" align="justify" style="text-indent: 0.5cm; margin-bottom: 0cm; line-height: 100%">
+<br/>
+
+</p>
+<p class="western" align="justify" style="text-indent: 0.5cm; margin-bottom: 0cm; line-height: 100%">
+Дано число n в восьмеричной системе
+счисления. Разработайте машину Тьюринга,
+которая уменьшала бы заданное число на
+3. В начальном  и конечном состояниях 
+автомат обозревает крайнюю левую цифру
+числа. Описать словами каждое состояние
+автомата. Составить программу-таблицу
+и нарисовать диаграмму переходов.
+Отметьте запрещенные клетки таблицы.</p>
+<p class="western" align="justify" style="text-indent: 0.5cm; margin-bottom: 0cm; line-height: 100%">
+<br/>
+
+</p>
+<p class="western" align="justify" style="text-indent: 0.5cm; margin-bottom: 0cm; line-height: 100%">
+Дано число n в семеричной системе
+счисления. Разработайте машину Тьюринга,
+которая увеличивала бы заданное число
+на 2. В начальном  и конечном состояниях
+ автомат обозревает крайнюю левую цифру
+числа. Описать словами каждое состояние
+автомата. Составить программу-таблицу
+и нарисовать диаграмму переходов.
+Отметьте запрещенные клетки таблицы.</p>
+<p class="western" align="justify" style="text-indent: 0.5cm; margin-bottom: 0cm; line-height: 100%">
+<br/>
+
+</p>
+<p class="western" align="justify" style="text-indent: 0.5cm; margin-bottom: 0cm; line-height: 100%">
+Дано число n в семеричной системе
+счисления. Разработайте машину Тьюринга,
+которая уменьшала бы заданное число на
+2. В начальном  и конечном состояниях 
+автомат обозревает крайнюю левую цифру
+числа. Описать словами каждое состояние
+автомата. Составить программу-таблицу
+и нарисовать диаграмму переходов.
+Отметьте запрещенные клетки таблицы.</p>
+<p class="western" align="justify" style="margin-bottom: 0cm; line-height: 100%">
+<b>Задание 2</b></p>
+<p class="western" style="margin-bottom: 0cm; line-height: 100%">На
+информационной ленте машины Тьюринга
+содержится непрерывная последовательность
+символов «*». Сконструируйте машину
+Тьюринга, которая заменит каждый второй
+символ на символ «!» (отсчет символов
+начинается с левого края строки). В
+начальный момент времени автомат
+обозревает произвольный символ заданной
+строки символов. В конечный момент
+времени он должен обозревать крайний
+левый символ. Составить программу-таблицу
+и нарисовать диаграмму переходов. Кроме
+самой программы-таблицы, описать словами,
+что выполняется машиной в каждом
+состоянии. Отметьте запрещенные клетки
+таблицы.</p>
+<p class="western" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p class="western" style="margin-bottom: 0cm; line-height: 100%">На
+информационной ленте машины Тьюринга
+содержится непрерывная последовательность
+символов «#». Сконструируйте машину
+Тьюринга, которая заменит каждый третий
+символ на символ «@» (отсчет символов
+начинается с правого края строки). В
+начальный момент времени автомат
+обозревает произвольный символ заданной
+строки символов. В конечный момент
+времени он должен обозревать крайний
+левый символ. Составить программу-таблицу
+и нарисовать диаграмму переходов. Кроме
+самой программы-таблицы, описать словами,
+что выполняется машиной в каждом
+состоянии. Отметьте запрещенные клетки
+таблицы.</p>
+<p class="western" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p class="western" style="margin-bottom: 0cm; line-height: 100%">На
+информационной ленте машины Тьюринга
+содержится два числа в унарной системе
+счисления, разделенных ровно одним
+пробелом. Сравнить эти два числа и в
+пустой клетке между числами поставить
+один из знаков отношения «&lt;», «&gt;»,
+«=». В начальный момент времени автомат
+обозревает крайний левый символ первого
+из чисел. В конечный момент времени он
+должен обозревать символ операции
+сравнения. Составить программу-таблицу
+и нарисовать диаграмму переходов. Кроме
+самой программы-таблицы, описать словами,
+что выполняется машиной в каждом
+состоянии.</p>
+<p class="western" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p class="western" style="margin-bottom: 0cm; line-height: 100%">На
+информационной ленте машины Тьюринга
+содержится последовательность из
+открывающих и закрывающих скобок.
+Построить машину Тьюринга, которая бы
+удаляла пары взаимных скобок, т. е.
+расположенных подряд «&nbsp;(&nbsp;)&nbsp;». При
+удалении символов на их место необходимо
+записывать два пустых символа. В начальный
+момент времени автомат обозревает
+произвольный символ заданной строки
+символов. В конечный момент времени он
+должен обозревать крайний левый символ.
+Составить программу-таблицу и нарисовать
+диаграмму переходов. Кроме самой
+программы-таблицы, описать словами, что
+выполняется машиной в каждом состоянии.
+Отметьте запрещенные клетки таблицы.</p>
+<p class="western" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p class="western" style="margin-bottom: 0cm; line-height: 100%">На
+информационной ленте машины Тьюринга
+содержится последовательность символов
+из алфавита A={0,1,…,9,&lt;,&gt;,=}. Построить
+машину Тьюринга, которая бы заменяла
+пары символов “ &lt; &gt; ”, на пару “&nbsp;!
+=&nbsp;“.  В начальный момент времени
+автомат обозревает произвольный символ
+заданной строки символов. В конечный
+момент времени он должен обозревать
+крайний левый символ. Составить
+программу-таблицу и нарисовать диаграмму
+переходов. Кроме самой программы-таблицы,
+описать словами, что выполняется машиной
+в каждом состоянии. Отметьте запрещенные
+клетки таблицы.</p>
+<p class="western" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p class="western" style="margin-bottom: 0cm; line-height: 100%">На
+информационной ленте машины Тьюринга
+содержится непрерывная последовательность
+символов «&amp;». Сконструируйте машину
+Тьюринга, которая заменит каждый пятый
+символ на символ «№» (отсчет символов
+начинается с правого края строки). В
+начальный момент времени автомат
+обозревает произвольный символ заданной
+строки символов. В конечный момент
+времени он должен обозревать крайний
+левый символ. Составить программу-таблицу
+и нарисовать диаграмму переходов. Кроме
+самой программы-таблицы, описать словами,
+что выполняется машиной в каждом
+состоянии. Отметьте запрещенные клетки
+таблицы.</p>
+<p class="western" style="margin-bottom: 0cm; line-height: 100%">На
+информационной ленте машины Тьюринга
+содержится непрерывная последовательность
+символов «|». Сконструируйте машину
+Тьюринга, которая заменит каждый
+четвертый символ на символ «/» (отсчет
+символов начинается с правого края
+строки). В начальный момент времени
+автомат обозревает произвольный символ
+заданной строки символов. В конечный
+момент времени он должен обозревать
+крайний левый символ. Составить
+программу-таблицу и нарисовать диаграмму
+переходов. Кроме самой программы-таблицы,
+описать словами, что выполняется машиной
+в каждом состоянии. Отметьте запрещенные
+клетки таблицы.</p>
+<p class="western" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p class="western" style="margin-bottom: 0cm; line-height: 100%">На
+информационной ленте машины Тьюринга
+содержится непрерывная последовательность
+символов «%». Сконструируйте машину
+Тьюринга, которая заменит каждый шестой
+символ на символ «$» (отсчет символов
+начинается с правого края строки). В
+начальный момент времени автомат
+обозревает произвольный символ заданной
+строки символов. В конечный момент
+времени он должен обозревать крайний
+левый символ. Составить программу-таблицу
+и нарисовать диаграмму переходов. Кроме
+самой программы-таблицы, описать словами,
+что выполняется машиной в каждом
+состоянии. Отметьте запрещенные клетки
+таблицы.</p>
+<p class="western" align="justify" style="margin-bottom: 0cm; line-height: 100%">
+<b>Задание 3</b></p>
+<p class="western" align="justify" style="margin-bottom: 0cm; line-height: 100%">
+На информационной ленте машины Тьюринга
+записаны два натуральных числа в унарной
+системе счисления, разделенных ровно
+одной пустой ячейкой. Читающая головка
+находится напротив крайнего левого
+символа в записи левого числа. Выполните
+трассировку программы для некоторых
+чисел. Определите, какую задачу она
+решает. Придумайте как можно решить эту
+же задачу, используя меньшее число
+состояний. Запишите свое решение в виде
+программы-таблицы. Отметьте запрещенные
+клетки таблицы. 
+</p>
+<dl>
+	<dl>
+		<dl>
+			<dd>
+			<table width="504" cellpadding="7" cellspacing="0">
+				<col width="9"/>
+
+				<col width="65"/>
+
+				<col width="65"/>
+
+				<col width="66"/>
+
+				<col width="65"/>
+
+				<col width="65"/>
+
+				<col width="68"/>
+
+				<tr valign="top">
+					<td width="9" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="justify" style="text-indent: 0.5cm">
+						<br/>
+
+						</p>
+					</td>
+					<td width="65" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center" style="text-indent: 0.5cm">
+						q<sub>1</sub></p>
+					</td>
+					<td width="65" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center" style="text-indent: 0.5cm">
+						q<sub>2</sub></p>
+					</td>
+					<td width="66" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center" style="text-indent: 0.5cm">
+						q<sub>3</sub></p>
+					</td>
+					<td width="65" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center" style="text-indent: 0.5cm">
+						q<sub>4</sub></p>
+					</td>
+					<td width="65" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center" style="text-indent: 0.5cm">
+						q<sub>5</sub></p>
+					</td>
+					<td width="68" style="border: 1.00pt solid #000000; padding: 0cm 0.19cm"><p class="western" align="center" style="text-indent: 0.5cm">
+						q<sub>6</sub></p>
+					</td>
+				</tr>
+				<tr valign="top">
+					<td width="9" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="justify" style="text-indent: 0.5cm">
+						|</p>
+					</td>
+					<td width="65" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center" style="text-indent: 0.5cm">
+						| q<sub>1 </sub>R</p>
+					</td>
+					<td width="65" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center" style="text-indent: 0.5cm">
+						| q<sub>2 </sub>R</p>
+					</td>
+					<td width="66" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center" style="text-indent: 0.5cm">
+						e q<sub>4 </sub>L</p>
+					</td>
+					<td width="65" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center" style="text-indent: 0.5cm">
+						| q<sub>4 </sub>L</p>
+					</td>
+					<td width="65" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center" style="text-indent: 0.5cm">
+						| q<sub>5 </sub>L</p>
+					</td>
+					<td width="68" style="border: 1.00pt solid #000000; padding: 0cm 0.19cm"><p class="western" align="center" style="text-indent: 0.5cm">
+						<br/>
+
+						</p>
+					</td>
+				</tr>
+				<tr valign="top">
+					<td width="9" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="justify" style="text-indent: 0.5cm">
+						e</p>
+					</td>
+					<td width="65" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center" style="text-indent: 0.5cm">
+						e q<sub>2 </sub>R</p>
+					</td>
+					<td width="65" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center" style="text-indent: 0.5cm">
+						e q<sub>3 </sub>L</p>
+					</td>
+					<td width="66" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center" style="text-indent: 0.5cm">
+						<br/>
+
+						</p>
+					</td>
+					<td width="65" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center" style="text-indent: 0.5cm">
+						| q<sub>5 </sub>L</p>
+					</td>
+					<td width="65" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center" style="text-indent: 0.5cm">
+						e q<sub>6 </sub>R</p>
+					</td>
+					<td width="68" style="border: 1.00pt solid #000000; padding: 0cm 0.19cm"><p class="western" align="center" style="text-indent: 0.5cm">
+						<br/>
+
+						</p>
+					</td>
+				</tr>
+			</table>
+		</dl>
+	</dl>
+</dl>
+<p class="western" align="justify" style="margin-bottom: 0cm; line-height: 100%">
+<br/>
+
+</p>
+<p class="western" align="justify" style="margin-bottom: 0cm; line-height: 100%">
+На информационной ленте машины Тьюринга
+записаны два натуральных числа A и B
+(A&gt;B) в унарной системе счисления,
+разделенных ровно одной пустой ячейкой.
+Читающая головка находится напротив
+крайнего левого символа в записи левого
+числа. Выполните трассировку программы
+для некоторых чисел. Определите, какую
+задачу она решает. Придумайте, как можно
+решить эту же задачу другим способом.
+Запишите свое решение в виде
+программы-таблицы. Отметьте запрещенные
+клетки таблицы. 
+</p>
+<center>
+	<table width="647" cellpadding="7" cellspacing="0">
+		<col width="21"/>
+
+		<col width="63"/>
+
+		<col width="63"/>
+
+		<col width="72"/>
+
+		<col width="66"/>
+
+		<col width="76"/>
+
+		<col width="62"/>
+
+		<col width="61"/>
+
+		<col width="36"/>
+
+		<tr valign="top">
+			<td width="21" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<br/>
+
+				</p>
+			</td>
+			<td width="63" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">1</font></font></sub></font></font></p>
+			</td>
+			<td width="63" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">2</font></font></sub></font></font></p>
+			</td>
+			<td width="72" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">3</font></font></sub></font></font></p>
+			</td>
+			<td width="66" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">4</font></font></sub></font></font></p>
+			</td>
+			<td width="76" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">5</font></font></sub></font></font></p>
+			</td>
+			<td width="62" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">6</font></font></sub></font></font></p>
+			</td>
+			<td width="61" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">7</font></font></sub></font></font></p>
+			</td>
+			<td width="36" style="border: 1.00pt solid #000000; padding: 0cm 0.19cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">8</font></font></sub></font></font></p>
+			</td>
+		</tr>
+		<tr>
+			<td width="21" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">|</font></font></p>
+			</td>
+			<td width="63" valign="top" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">e
+				q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">2
+				</font></font></sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">R</font></font></font></font></p>
+			</td>
+			<td width="63" valign="top" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">|
+				q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">2
+				</font></font></sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">R</font></font></font></font></p>
+			</td>
+			<td width="72" valign="top" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">|
+				q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">3
+				</font></font></sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">R</font></font></font></font></p>
+			</td>
+			<td width="66" valign="top" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">e
+				q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">5
+				</font></font></sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">L</font></font></font></font></p>
+			</td>
+			<td width="76" valign="top" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">|
+				q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">5
+				</font></font></sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">L</font></font></font></font></p>
+			</td>
+			<td width="62" valign="top" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">|
+				q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">6
+				</font></font></sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">L</font></font></font></font></p>
+			</td>
+			<td width="61" valign="top" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">|
+				q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">7
+				</font></font></sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">L</font></font></font></font></p>
+			</td>
+			<td width="36" valign="top" style="border: 1.00pt solid #000000; padding: 0cm 0.19cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="21" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">e</font></font></p>
+			</td>
+			<td width="63" valign="top" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<br/>
+
+				</p>
+			</td>
+			<td width="63" valign="top" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">e
+				q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">3
+				</font></font></sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">R</font></font></font></font></p>
+			</td>
+			<td width="72" valign="top" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">e
+				q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">4
+				</font></font></sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">L</font></font></font></font></p>
+			</td>
+			<td width="66" valign="top" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">|
+				q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">7
+				</font></font></sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">L</font></font></font></font></p>
+			</td>
+			<td width="76" valign="top" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">e
+				q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">6
+				</font></font></sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">L</font></font></font></font></p>
+			</td>
+			<td width="62" valign="top" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">e
+				q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">1
+				</font></font></sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">R</font></font></font></font></p>
+			</td>
+			<td width="61" valign="top" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">e
+				q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">8
+				</font></font></sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">R</font></font></font></font></p>
+			</td>
+			<td width="36" valign="top" style="border: 1.00pt solid #000000; padding: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+	</table>
+</center>
+<p class="western" align="justify" style="margin-bottom: 0cm; line-height: 100%">
+<br/>
+
+</p>
+<p class="western" align="justify" style="margin-bottom: 0cm; line-height: 100%">
+На информационной ленте машины Тьюринга
+записано число  N (N&gt;2) в унарной системе
+счисления. Читающая головка находится
+напротив крайнего левого символа в
+записи числа. Выполните трассировку
+программы для некоторого числа.
+Определите, какую задачу она решает. 
+Придумайте, как можно решить эту же
+задачу, используя меньшее число состояний.
+Запишите свое решение в виде
+программы-таблицы. Отметьте запрещенные
+клетки таблицы. 
+</p>
+<center>
+	<table width="437" cellpadding="7" cellspacing="0">
+		<col width="20"/>
+
+		<col width="65"/>
+
+		<col width="66"/>
+
+		<col width="66"/>
+
+		<col width="65"/>
+
+		<col width="68"/>
+
+		<tr valign="top">
+			<td width="20" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="justify" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<br/>
+
+				</p>
+			</td>
+			<td width="65" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">1</font></font></sub></font></font></p>
+			</td>
+			<td width="66" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">2</font></font></sub></font></font></p>
+			</td>
+			<td width="66" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">3</font></font></sub></font></font></p>
+			</td>
+			<td width="65" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">4</font></font></sub></font></font></p>
+			</td>
+			<td width="68" style="border: 1.00pt solid #000000; padding: 0cm 0.19cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">5</font></font></sub></font></font></p>
+			</td>
+		</tr>
+		<tr>
+			<td width="20" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.23cm; orphans: 0; widows: 0">
+				<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">|</font></font></p>
+			</td>
+			<td width="65" valign="top" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">|
+				q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">1
+				</font></font></sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">R</font></font></font></font></p>
+			</td>
+			<td width="66" valign="top" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">e
+				q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">3
+				</font></font></sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">L</font></font></font></font></p>
+			</td>
+			<td width="66" valign="top" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">e
+				q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">4
+				</font></font></sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">L</font></font></font></font></p>
+			</td>
+			<td width="65" valign="top" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">|
+				q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">4
+				</font></font></sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">L</font></font></font></font></p>
+			</td>
+			<td width="68" valign="top" style="border: 1.00pt solid #000000; padding: 0cm 0.19cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="20" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.23cm; orphans: 0; widows: 0">
+				<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">e</font></font></p>
+			</td>
+			<td width="65" valign="top" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">e
+				q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">2
+				</font></font></sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">L</font></font></font></font></p>
+			</td>
+			<td width="66" valign="top" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<br/>
+
+				</p>
+			</td>
+			<td width="66" valign="top" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<br/>
+
+				</p>
+			</td>
+			<td width="65" valign="top" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">e
+				q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">5
+				</font></font></sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">R</font></font></font></font></p>
+			</td>
+			<td width="68" valign="top" style="border: 1.00pt solid #000000; padding: 0cm 0.19cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+	</table>
+</center>
+<p class="western" align="justify" style="margin-bottom: 0cm; line-height: 100%">
+<br/>
+
+</p>
+<p class="western" align="justify" style="margin-bottom: 0cm; line-height: 100%">
+На информационной ленте машины Тьюринга
+записано натуральное число N  в унарной
+системе счисления. Читающая головка
+находится напротив крайнего левого
+символа в записи числа. Выполните
+трассировку программы для некоторого
+числа. Определите, какую задачу она
+решает.  Придумайте, как можно решить
+эту же задачу, используя меньшее число
+состояний. Запишите свое решение в виде
+программы-таблицы.</p>
+<center>
+	<table width="390" cellpadding="7" cellspacing="0">
+		<col width="20"/>
+
+		<col width="77"/>
+
+		<col width="66"/>
+
+		<col width="87"/>
+
+		<col width="68"/>
+
+		<tr valign="top">
+			<td width="20" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="justify" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<br/>
+
+				</p>
+			</td>
+			<td width="77" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">1</font></font></sub></font></font></p>
+			</td>
+			<td width="66" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">2</font></font></sub></font></font></p>
+			</td>
+			<td width="87" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">3</font></font></sub></font></font></p>
+			</td>
+			<td width="68" style="border: 1.00pt solid #000000; padding: 0cm 0.19cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">4</font></font></sub></font></font></p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td width="20" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="justify" style="text-indent: 0.25cm; orphans: 0; widows: 0">
+				<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">|</font></font></p>
+			</td>
+			<td width="77" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">|
+				q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">1
+				</font></font></sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">R</font></font></font></font></p>
+			</td>
+			<td width="66" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<br/>
+
+				</p>
+			</td>
+			<td width="87" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">|
+				q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">3
+				</font></font></sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">L</font></font></font></font></p>
+			</td>
+			<td width="68" style="border: 1.00pt solid #000000; padding: 0cm 0.19cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td width="20" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding: 0cm"><p align="justify" style="text-indent: 0.25cm; orphans: 0; widows: 0">
+				<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">e</font></font></p>
+			</td>
+			<td width="77" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">|
+				q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">2
+				</font></font></sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">R</font></font></font></font></p>
+			</td>
+			<td width="66" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">|
+				q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">3
+				</font></font></sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">L</font></font></font></font></p>
+			</td>
+			<td width="87" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<font face="Arial, sans-serif"><font size="2" style="font-size: 11pt"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">e
+				q</font></font><sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">4
+				</font></font></sub><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">R</font></font></font></font></p>
+			</td>
+			<td width="68" style="border: 1.00pt solid #000000; padding: 0cm"><p align="center" style="text-indent: 0.5cm; orphans: 0; widows: 0">
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+	</table>
+</center>
+<p class="western" align="justify" style="margin-bottom: 0cm; line-height: 100%">
+<br/>
+
+</p>
+<p class="western" align="justify" style="margin-bottom: 0cm; line-height: 100%">
+На информационной ленте машины Тьюринга
+записаны два натуральных числа в унарной
+системе счисления, разделенных ровно
+одной пустой ячейкой. Читающая головка
+находится напротив крайнего левого
+символа в записи левого числа. Выполните
+трассировку программы для некоторых
+чисел. Определите, какую задачу она
+решает. Придумайте как можно решить эту
+же задачу, используя меньшее число
+состояний. Запишите свое решение в виде
+программы-таблицы. Отметьте запрещенные
+клетки таблицы.</p>
+<center>
+	<table width="504" cellpadding="7" cellspacing="0">
+		<col width="9"/>
+
+		<col width="65"/>
+
+		<col width="65"/>
+
+		<col width="66"/>
+
+		<col width="65"/>
+
+		<col width="65"/>
+
+		<col width="68"/>
+
+		<tr valign="top">
+			<td width="9" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="justify">
+				<br/>
+
+				</p>
+			</td>
+			<td width="65" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center">
+				q1</p>
+			</td>
+			<td width="65" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center">
+				q2</p>
+			</td>
+			<td width="66" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center">
+				q3</p>
+			</td>
+			<td width="65" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center">
+				q4</p>
+			</td>
+			<td width="65" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center">
+				q5</p>
+			</td>
+			<td width="68" style="border: 1.00pt solid #000000; padding: 0cm 0.19cm"><p class="western" align="center">
+				q6</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td width="9" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="justify">
+				|</p>
+			</td>
+			<td width="65" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center">
+				| q1 R</p>
+			</td>
+			<td width="65" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center">
+				| q2 R</p>
+			</td>
+			<td width="66" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center">
+				e q4 L</p>
+			</td>
+			<td width="65" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center">
+				| q4 L</p>
+			</td>
+			<td width="65" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center">
+				| q5 L</p>
+			</td>
+			<td width="68" style="border: 1.00pt solid #000000; padding: 0cm 0.19cm"><p class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td width="9" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="justify">
+				e</p>
+			</td>
+			<td width="65" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center">
+				e q2 R</p>
+			</td>
+			<td width="65" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center">
+				e q3 L</p>
+			</td>
+			<td width="66" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+			<td width="65" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center">
+				| q5 L</p>
+			</td>
+			<td width="65" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.19cm; padding-right: 0cm"><p class="western" align="center">
+				e q6 R</p>
+			</td>
+			<td width="68" style="border: 1.00pt solid #000000; padding: 0cm 0.19cm"><p class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+	</table>
+</center>
+<p class="western" align="justify" style="margin-bottom: 0cm; line-height: 100%">
+<br/>
+
+</p>
+</body>
+</html>

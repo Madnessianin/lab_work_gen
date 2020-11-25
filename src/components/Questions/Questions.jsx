@@ -15,11 +15,40 @@ const Questions = (props) => {
             props.addQuestion(data)
             setAddQuestMode(false)
         }
+        const sendQuestions = (mass) => {
+            for (let question of mass){
+                let q = question.replace(/(<\w+).*?>/gsm, '$1>').replace(/\s{2,}/gsm, ' ')
+                console.log('yes')
+                props.addQuestion(String(q))
+            }
+        }
         const onDocxSelected = (event) => {
             if (event.target.files.length) {
                 const docx = event.target.files[0]
-                let file_arraybuffer = new TextEncoder().encode(docx)
-                console.log(mammoth.convertToHtml({arraybuffer: file_arraybuffer},{styleMap: []}))
+                let reader = new FileReader()
+                reader.readAsText(docx)
+                reader.onload = () =>{
+                    let questions = reader.result.split(/<p[^>]*?>\n<b>Задание \d+<\/b><\/p>/gsm)
+                    console.log('y')
+                    for (let i = 1; i < questions.length; i++){
+                        let q = questions[i].split(/<p[^>]*?>\n<br\/>.*?<\/p>/gsm)
+                        sendQuestions(q)
+                        console.log('q')
+                    }
+                    /* questions.splice(1,-1).map(questionblock =>{
+                        let q = questionblock.split(/<p[^>]*?>\n<br\/>.*?<\/p>/gsm)
+                        sendQuestions(q)
+                        return q
+                    }) */
+                    /* let block1 = questions[3].split(/<p[^>]*?>\n<br\/>.*?<\/p>/gsm)
+                    let blockWithoutRubbish = block1.map(question =>{
+                        return question.replace(/(<\w+).*?>/gsm, '$1>').replace(/\s{2,}/gsm, ' ') 
+                    })
+                    console.log(blockWithoutRubbish[0])
+                    console.log(blockWithoutRubbish[0].length) */
+                }
+                /* let questions = reader.result.split(/<p[^>]*?>\n<b>Задание \d+<\/b><\/p>/gsm)
+                console.log(questions) */
             }
         }
         return (<div>

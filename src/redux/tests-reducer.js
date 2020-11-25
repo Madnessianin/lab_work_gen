@@ -49,6 +49,7 @@ export const getQuestions = () => {
 export const addQuestion = (question) => {
     return async (dispatch) => {
         let response = await questionsAPI.addQuestions(question)
+        
         dispatch(getQuestions())
     }
 }
