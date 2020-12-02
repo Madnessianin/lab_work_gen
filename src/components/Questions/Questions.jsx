@@ -17,9 +17,8 @@ const Questions = (props) => {
         }
         const sendQuestions = (mass) => {
             for (let question of mass){
-                let q = question.replace(/(<\w+).*?>/gsm, '$1>').replace(/\s{2,}/gsm, ' ')
-                console.log('yes')
-                props.addQuestion(String(q))
+                let q = question.replace(/(<\w+).*?>/gsm, '$1>').replace(/\s{2,}/gsm, ' ')                
+                props.addQuestion({'text': q})
             }
         }
         const onDocxSelected = (event) => {
@@ -33,22 +32,8 @@ const Questions = (props) => {
                     for (let i = 1; i < questions.length; i++){
                         let q = questions[i].split(/<p[^>]*?>\n<br\/>.*?<\/p>/gsm)
                         sendQuestions(q)
-                        console.log('q')
                     }
-                    /* questions.splice(1,-1).map(questionblock =>{
-                        let q = questionblock.split(/<p[^>]*?>\n<br\/>.*?<\/p>/gsm)
-                        sendQuestions(q)
-                        return q
-                    }) */
-                    /* let block1 = questions[3].split(/<p[^>]*?>\n<br\/>.*?<\/p>/gsm)
-                    let blockWithoutRubbish = block1.map(question =>{
-                        return question.replace(/(<\w+).*?>/gsm, '$1>').replace(/\s{2,}/gsm, ' ') 
-                    })
-                    console.log(blockWithoutRubbish[0])
-                    console.log(blockWithoutRubbish[0].length) */
                 }
-                /* let questions = reader.result.split(/<p[^>]*?>\n<b>Задание \d+<\/b><\/p>/gsm)
-                console.log(questions) */
             }
         }
         return (<div>
